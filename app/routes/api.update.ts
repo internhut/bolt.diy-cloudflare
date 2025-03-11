@@ -1,7 +1,7 @@
 import { json } from '@remix-run/node';
 import type { ActionFunction } from '@remix-run/node';
 import { execSync, exec } from 'node:child_process';
-import { promisify } from 'util';
+import { promisify } from 'node:util';
 
 const execAsync = promisify(exec);
 
